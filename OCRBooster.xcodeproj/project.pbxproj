@@ -14,19 +14,11 @@
 			remoteGlobalIDString = 8AD80B6E2F2E3594006C4F48;
 			remoteInfo = OCRBooster;
 		};
-		8AD80B8E2F2E3596006C4F48 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AD80B672F2E3594006C4F48 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8AD80B6E2F2E3594006C4F48;
-			remoteInfo = OCRBooster;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8AD80B6F2F2E3594006C4F48 /* OCRBooster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRBooster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD80B832F2E3596006C4F48 /* OCRBoosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRBoosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AD80B8D2F2E3596006C4F48 /* OCRBoosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRBoosterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -77,13 +69,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AD80B8A2F2E3596006C4F48 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -105,7 +90,6 @@
 			children = (
 				8AD80B6F2F2E3594006C4F48 /* OCRBooster.app */,
 				8AD80B832F2E3596006C4F48 /* OCRBoosterTests.xctest */,
-				8AD80B8D2F2E3596006C4F48 /* OCRBoosterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,26 +146,6 @@
 			productReference = 8AD80B832F2E3596006C4F48 /* OCRBoosterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8AD80B8C2F2E3596006C4F48 /* OCRBoosterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8AD80B9D2F2E3596006C4F48 /* Build configuration list for PBXNativeTarget "OCRBoosterUITests" */;
-			buildPhases = (
-				8AD80B892F2E3596006C4F48 /* Sources */,
-				8AD80B8A2F2E3596006C4F48 /* Frameworks */,
-				8AD80B8B2F2E3596006C4F48 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8AD80B8F2F2E3596006C4F48 /* PBXTargetDependency */,
-			);
-			name = OCRBoosterUITests;
-			packageProductDependencies = (
-			);
-			productName = OCRBoosterUITests;
-			productReference = 8AD80B8D2F2E3596006C4F48 /* OCRBoosterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,10 +159,6 @@
 						CreatedOnToolsVersion = 26.0.1;
 					};
 					8AD80B822F2E3596006C4F48 = {
-						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = 8AD80B6E2F2E3594006C4F48;
-					};
-					8AD80B8C2F2E3596006C4F48 = {
 						CreatedOnToolsVersion = 26.0.1;
 						TestTargetID = 8AD80B6E2F2E3594006C4F48;
 					};
@@ -220,7 +180,6 @@
 			targets = (
 				8AD80B6E2F2E3594006C4F48 /* OCRBooster */,
 				8AD80B822F2E3596006C4F48 /* OCRBoosterTests */,
-				8AD80B8C2F2E3596006C4F48 /* OCRBoosterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,13 +193,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8AD80B812F2E3596006C4F48 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AD80B8B2F2E3596006C4F48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,13 +216,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AD80B892F2E3596006C4F48 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -278,11 +223,6 @@
 			isa = PBXTargetDependency;
 			target = 8AD80B6E2F2E3594006C4F48 /* OCRBooster */;
 			targetProxy = 8AD80B842F2E3596006C4F48 /* PBXContainerItemProxy */;
-		};
-		8AD80B8F2F2E3596006C4F48 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8AD80B6E2F2E3594006C4F48 /* OCRBooster */;
-			targetProxy = 8AD80B8E2F2E3596006C4F48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -498,38 +438,6 @@
 			};
 			name = Release;
 		};
-		8AD80B9E2F2E3596006C4F48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9994G9A7AV;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OCR.Extractor.OCRBoosterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TEST_TARGET_NAME = OCRBooster;
-			};
-			name = Debug;
-		};
-		8AD80B9F2F2E3596006C4F48 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9994G9A7AV;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OCR.Extractor.OCRBoosterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TEST_TARGET_NAME = OCRBooster;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -556,15 +464,6 @@
 			buildConfigurations = (
 				8AD80B9B2F2E3596006C4F48 /* Debug */,
 				8AD80B9C2F2E3596006C4F48 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8AD80B9D2F2E3596006C4F48 /* Build configuration list for PBXNativeTarget "OCRBoosterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8AD80B9E2F2E3596006C4F48 /* Debug */,
-				8AD80B9F2F2E3596006C4F48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
