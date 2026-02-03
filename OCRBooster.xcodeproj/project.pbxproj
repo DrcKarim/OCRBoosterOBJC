@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8AD80B842F2E3596006C4F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AD80B672F2E3594006C4F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AD80B6E2F2E3594006C4F48;
+			remoteInfo = OCRBooster;
+		};
+		8AD80B8E2F2E3596006C4F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AD80B672F2E3594006C4F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AD80B6E2F2E3594006C4F48;
+			remoteInfo = OCRBooster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AD80B6F2F2E3594006C4F48 /* OCRBooster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRBooster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD80B832F2E3596006C4F48 /* OCRBoosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRBoosterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD80B8D2F2E3596006C4F48 /* OCRBoosterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRBoosterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8AD80B712F2E3594006C4F48 /* OCRBooster */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OCRBooster;
+			sourceTree = "<group>";
+		};
+		8AD80B862F2E3596006C4F48 /* OCRBoosterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OCRBoosterTests;
+			sourceTree = "<group>";
+		};
+		8AD80BA02F2E3819006C4F48 /* AppDelegate */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8AD80BA12F2E3837006C4F48 /* ViewController */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8AD80BA22F2E3845006C4F48 /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8AD80BA32F2E3858006C4F48 /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AD80B6C2F2E3594006C4F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD80B802F2E3596006C4F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD80B8A2F2E3596006C4F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AD80B662F2E3594006C4F48 = {
+			isa = PBXGroup;
+			children = (
+				8AD80BA32F2E3858006C4F48 /* Services */,
+				8AD80BA22F2E3845006C4F48 /* ViewModel */,
+				8AD80BA12F2E3837006C4F48 /* ViewController */,
+				8AD80BA02F2E3819006C4F48 /* AppDelegate */,
+				8AD80B712F2E3594006C4F48 /* OCRBooster */,
+				8AD80B862F2E3596006C4F48 /* OCRBoosterTests */,
+				8AD80B702F2E3594006C4F48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AD80B702F2E3594006C4F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AD80B6F2F2E3594006C4F48 /* OCRBooster.app */,
+				8AD80B832F2E3596006C4F48 /* OCRBoosterTests.xctest */,
+				8AD80B8D2F2E3596006C4F48 /* OCRBoosterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AD80B6E2F2E3594006C4F48 /* OCRBooster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD80B972F2E3596006C4F48 /* Build configuration list for PBXNativeTarget "OCRBooster" */;
+			buildPhases = (
+				8AD80B6B2F2E3594006C4F48 /* Sources */,
+				8AD80B6C2F2E3594006C4F48 /* Frameworks */,
+				8AD80B6D2F2E3594006C4F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AD80B712F2E3594006C4F48 /* OCRBooster */,
+				8AD80BA02F2E3819006C4F48 /* AppDelegate */,
+				8AD80BA12F2E3837006C4F48 /* ViewController */,
+				8AD80BA22F2E3845006C4F48 /* ViewModel */,
+				8AD80BA32F2E3858006C4F48 /* Services */,
+			);
+			name = OCRBooster;
+			packageProductDependencies = (
+			);
+			productName = OCRBooster;
+			productReference = 8AD80B6F2F2E3594006C4F48 /* OCRBooster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AD80B822F2E3596006C4F48 /* OCRBoosterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD80B9A2F2E3596006C4F48 /* Build configuration list for PBXNativeTarget "OCRBoosterTests" */;
+			buildPhases = (
+				8AD80B7F2F2E3596006C4F48 /* Sources */,
+				8AD80B802F2E3596006C4F48 /* Frameworks */,
+				8AD80B812F2E3596006C4F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AD80B852F2E3596006C4F48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8AD80B862F2E3596006C4F48 /* OCRBoosterTests */,
+			);
+			name = OCRBoosterTests;
+			packageProductDependencies = (
+			);
+			productName = OCRBoosterTests;
+			productReference = 8AD80B832F2E3596006C4F48 /* OCRBoosterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AD80B8C2F2E3596006C4F48 /* OCRBoosterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD80B9D2F2E3596006C4F48 /* Build configuration list for PBXNativeTarget "OCRBoosterUITests" */;
+			buildPhases = (
+				8AD80B892F2E3596006C4F48 /* Sources */,
+				8AD80B8A2F2E3596006C4F48 /* Frameworks */,
+				8AD80B8B2F2E3596006C4F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AD80B8F2F2E3596006C4F48 /* PBXTargetDependency */,
+			);
+			name = OCRBoosterUITests;
+			packageProductDependencies = (
+			);
+			productName = OCRBoosterUITests;
+			productReference = 8AD80B8D2F2E3596006C4F48 /* OCRBoosterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AD80B672F2E3594006C4F48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					8AD80B6E2F2E3594006C4F48 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					8AD80B822F2E3596006C4F48 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 8AD80B6E2F2E3594006C4F48;
+					};
+					8AD80B8C2F2E3596006C4F48 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 8AD80B6E2F2E3594006C4F48;
+					};
+				};
+			};
+			buildConfigurationList = 8AD80B6A2F2E3594006C4F48 /* Build configuration list for PBXProject "OCRBooster" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AD80B662F2E3594006C4F48;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8AD80B702F2E3594006C4F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AD80B6E2F2E3594006C4F48 /* OCRBooster */,
+				8AD80B822F2E3596006C4F48 /* OCRBoosterTests */,
+				8AD80B8C2F2E3596006C4F48 /* OCRBoosterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AD80B6D2F2E3594006C4F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD80B812F2E3596006C4F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD80B8B2F2E3596006C4F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AD80B6B2F2E3594006C4F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD80B7F2F2E3596006C4F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD80B892F2E3596006C4F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AD80B852F2E3596006C4F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AD80B6E2F2E3594006C4F48 /* OCRBooster */;
+			targetProxy = 8AD80B842F2E3596006C4F48 /* PBXContainerItemProxy */;
+		};
+		8AD80B8F2F2E3596006C4F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AD80B6E2F2E3594006C4F48 /* OCRBooster */;
+			targetProxy = 8AD80B8E2F2E3596006C4F48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8AD80B952F2E3596006C4F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9994G9A7AV;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8AD80B962F2E3596006C4F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9994G9A7AV;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8AD80B982F2E3596006C4F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9994G9A7AV;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCR.Extractor.OCRBooster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		8AD80B992F2E3596006C4F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9994G9A7AV;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCR.Extractor.OCRBooster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		8AD80B9B2F2E3596006C4F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9994G9A7AV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCR.Extractor.OCRBoosterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCRBooster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OCRBooster";
+			};
+			name = Debug;
+		};
+		8AD80B9C2F2E3596006C4F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9994G9A7AV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCR.Extractor.OCRBoosterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCRBooster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OCRBooster";
+			};
+			name = Release;
+		};
+		8AD80B9E2F2E3596006C4F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9994G9A7AV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCR.Extractor.OCRBoosterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = OCRBooster;
+			};
+			name = Debug;
+		};
+		8AD80B9F2F2E3596006C4F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9994G9A7AV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCR.Extractor.OCRBoosterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = OCRBooster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AD80B6A2F2E3594006C4F48 /* Build configuration list for PBXProject "OCRBooster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD80B952F2E3596006C4F48 /* Debug */,
+				8AD80B962F2E3596006C4F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD80B972F2E3596006C4F48 /* Build configuration list for PBXNativeTarget "OCRBooster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD80B982F2E3596006C4F48 /* Debug */,
+				8AD80B992F2E3596006C4F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD80B9A2F2E3596006C4F48 /* Build configuration list for PBXNativeTarget "OCRBoosterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD80B9B2F2E3596006C4F48 /* Debug */,
+				8AD80B9C2F2E3596006C4F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD80B9D2F2E3596006C4F48 /* Build configuration list for PBXNativeTarget "OCRBoosterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD80B9E2F2E3596006C4F48 /* Debug */,
+				8AD80B9F2F2E3596006C4F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AD80B672F2E3594006C4F48 /* Project object */;
+}
